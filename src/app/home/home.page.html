@@ -8,7 +8,11 @@
 
 <ion-content [fullscreen]="true">
   <div class="container">
-    <p> Lat: {{lat}}, Lng: {{lng}}</p>
+    <p> Latitude: {{lat}}, Longitude: {{lng}}</p>
     <ion-button (click)="myLocation()"> Get My location </ion-button>
+  </div>
+</ion-content>
+<ion-content>
+  <div id="mapId" style="width: 100%; height: 100%">
   </div>
 </ion-content>
