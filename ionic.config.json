@@ -1,0 +1,7 @@
+{
+  "name": "geo-loc-Front",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
